@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+@MainActor
 class CardViewModel : ObservableObject {
     @Published var cardModels : [CardModel] = []
-    
+    @Published var buttonSwipeAction: SwipeAction?
+
     private let service: CardService
     
     init(service: CardService) {

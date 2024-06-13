@@ -27,6 +27,15 @@
 		D5C56C702C1B657F00A83E8C /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C6F2C1B657F00A83E8C /* CardViewModel.swift */; };
 		D5C56C732C1B659200A83E8C /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C722C1B659200A83E8C /* CardService.swift */; };
 		D5C56C762C1B65A500A83E8C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C752C1B65A500A83E8C /* CardModel.swift */; };
+		D5C56C7A2C1B69E000A83E8C /* SwipeActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C792C1B69E000A83E8C /* SwipeActionButtonsView.swift */; };
+		D5C56C7C2C1B6BC700A83E8C /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C7B2C1B6BC700A83E8C /* SwipeAction.swift */; };
+		D5C56C7E2C1B74E600A83E8C /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C7D2C1B74E600A83E8C /* UserProfileView.swift */; };
+		D5C56C822C1B7CAD00A83E8C /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C812C1B7CAD00A83E8C /* CurrentUserProfileView.swift */; };
+		D5C56C842C1B7D1900A83E8C /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C832C1B7D1900A83E8C /* CurrentUserProfileHeaderView.swift */; };
+		D5C56C872C1B827000A83E8C /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C862C1B827000A83E8C /* EditProfileView.swift */; };
+		D5C56C892C1B836000A83E8C /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C882C1B836000A83E8C /* ProfileImageGridView.swift */; };
+		D5C56C8E2C1B8BD200A83E8C /* UserMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C8D2C1B8BD100A83E8C /* UserMatchView.swift */; };
+		D5C56C912C1B937E00A83E8C /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C56C902C1B937E00A83E8C /* MatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +60,15 @@
 		D5C56C6F2C1B657F00A83E8C /* CardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		D5C56C722C1B659200A83E8C /* CardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		D5C56C752C1B65A500A83E8C /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		D5C56C792C1B69E000A83E8C /* SwipeActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtonsView.swift; sourceTree = "<group>"; };
+		D5C56C7B2C1B6BC700A83E8C /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		D5C56C7D2C1B74E600A83E8C /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D5C56C812C1B7CAD00A83E8C /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		D5C56C832C1B7D1900A83E8C /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
+		D5C56C862C1B827000A83E8C /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		D5C56C882C1B836000A83E8C /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
+		D5C56C8D2C1B8BD100A83E8C /* UserMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMatchView.swift; sourceTree = "<group>"; };
+		D5C56C902C1B937E00A83E8C /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +190,7 @@
 		D5C56C572C1B64D800A83E8C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D5C56C8A2C1B8B8C00A83E8C /* Matches */,
 				D5C56C5C2C1B651100A83E8C /* Messaging */,
 				D5C56C5B2C1B64FC00A83E8C /* Cards */,
 				D5C56C5A2C1B64F200A83E8C /* Search */,
@@ -192,6 +211,9 @@
 		D5C56C592C1B64EC00A83E8C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D5C56C802C1B7C8B00A83E8C /* CurrentUserProfile */,
+				D5C56C852C1B824E00A83E8C /* EditProfile */,
+				D5C56C7F2C1B7C7D00A83E8C /* UserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -231,6 +253,7 @@
 				D5C56C652C1B656300A83E8C /* ImageScrollingOverlay.swift */,
 				D5C56C602C1B656300A83E8C /* SwipeActionIndicatorView.swift */,
 				D5C56C632C1B656300A83E8C /* UserInfoView.swift */,
+				D5C56C792C1B69E000A83E8C /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,8 +278,60 @@
 			isa = PBXGroup;
 			children = (
 				D5C56C752C1B65A500A83E8C /* CardModel.swift */,
+				D5C56C7B2C1B6BC700A83E8C /* SwipeAction.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D5C56C7F2C1B7C7D00A83E8C /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C7D2C1B74E600A83E8C /* UserProfileView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		D5C56C802C1B7C8B00A83E8C /* CurrentUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C812C1B7CAD00A83E8C /* CurrentUserProfileView.swift */,
+				D5C56C832C1B7D1900A83E8C /* CurrentUserProfileHeaderView.swift */,
+			);
+			path = CurrentUserProfile;
+			sourceTree = "<group>";
+		};
+		D5C56C852C1B824E00A83E8C /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C862C1B827000A83E8C /* EditProfileView.swift */,
+				D5C56C882C1B836000A83E8C /* ProfileImageGridView.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		D5C56C8A2C1B8B8C00A83E8C /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C8F2C1B936400A83E8C /* Manager */,
+				D5C56C8B2C1B8B9700A83E8C /* View */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		D5C56C8B2C1B8B9700A83E8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C8D2C1B8BD100A83E8C /* UserMatchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5C56C8F2C1B936400A83E8C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D5C56C902C1B937E00A83E8C /* MatchManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,16 +407,25 @@
 				D5C56C6C2C1B656300A83E8C /* ImageScrollingOverlay.swift in Sources */,
 				D5C56C4E2C1B644C00A83E8C /* UIWindowScene.swift in Sources */,
 				D5C56C6D2C1B656300A83E8C /* ContentView.swift in Sources */,
+				D5C56C8E2C1B8BD200A83E8C /* UserMatchView.swift in Sources */,
 				D5C56C6B2C1B656300A83E8C /* CardStackView.swift in Sources */,
 				D5C56C702C1B657F00A83E8C /* CardViewModel.swift in Sources */,
 				D5C56C762C1B65A500A83E8C /* CardModel.swift in Sources */,
 				D5C56C4D2C1B644C00A83E8C /* Extensions.swift in Sources */,
+				D5C56C7E2C1B74E600A83E8C /* UserProfileView.swift in Sources */,
 				D5C56C5E2C1B653E00A83E8C /* MainTabView.swift in Sources */,
 				D5C56C732C1B659200A83E8C /* CardService.swift in Sources */,
 				D5C56C692C1B656300A83E8C /* CardImageIndicatorView.swift in Sources */,
+				D5C56C822C1B7CAD00A83E8C /* CurrentUserProfileView.swift in Sources */,
 				D5C56C362C1B639F00A83E8C /* TinderSwiftUIApp.swift in Sources */,
 				D5C56C4C2C1B644C00A83E8C /* String.swift in Sources */,
+				D5C56C842C1B7D1900A83E8C /* CurrentUserProfileHeaderView.swift in Sources */,
+				D5C56C892C1B836000A83E8C /* ProfileImageGridView.swift in Sources */,
 				D5C56C482C1B643900A83E8C /* SizeConstants.swift in Sources */,
+				D5C56C7A2C1B69E000A83E8C /* SwipeActionButtonsView.swift in Sources */,
+				D5C56C912C1B937E00A83E8C /* MatchManager.swift in Sources */,
+				D5C56C7C2C1B6BC700A83E8C /* SwipeAction.swift in Sources */,
+				D5C56C872C1B827000A83E8C /* EditProfileView.swift in Sources */,
 				D5C56C672C1B656300A83E8C /* SwipeActionIndicatorView.swift in Sources */,
 				D5C56C532C1B648D00A83E8C /* User.swift in Sources */,
 				D5C56C6A2C1B656300A83E8C /* UserInfoView.swift in Sources */,

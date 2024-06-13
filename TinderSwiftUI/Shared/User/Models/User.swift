@@ -10,12 +10,12 @@ import SwiftUI
 
 struct User: Identifiable {
     let id : String
+    let email: String
     let fullname: String
     var age: Int
     var profileImageUrls: [String]
-    var bio: String
+    var bio: String?
 }
-
 
 extension User: Hashable { }
 
@@ -26,6 +26,7 @@ extension User {
         let actor = generateActors()[index]
         return .init(
             id: actor.id.uuidString,
+            email: actor.email,
             fullname: actor.fullName,
             age: 34,
             profileImageUrls: actor.images,
@@ -37,6 +38,7 @@ extension User {
         return generateActors().compactMap { actor in
             User(
                 id: actor.id.uuidString,
+                email: actor.email,
                 fullname: actor.fullName,
                 age: actor.age,
                 profileImageUrls: actor.images,

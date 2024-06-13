@@ -43,7 +43,7 @@ struct MainTabView: View {
                 .tag(2)
             
             //MARK: - Profile View
-            Text("Profile View")
+            CurrentUserProfileView(user: .placeholder())
                 .tabItem {
                     Image(systemName: selectedTab == 3 ? .personFill : .person)
                         .environment(\.symbolVariants, selectedTab == 3 ? .fill : .none)
